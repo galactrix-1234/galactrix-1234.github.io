@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Photo Gallery</title>
+  <meta name="description" content="A simple static photo gallery - ready for GitHub Pages" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Photo Gallery</h1>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search by title, caption, or tag…" aria-label="Search photos" />
+      <select id="sort">
+        <option value="date-desc">Newest</option>
+        <option value="date-asc">Oldest</option>
+        <option value="title-asc">Title A→Z</option>
+        <option value="title-desc">Title Z→A</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <section id="gallery" class="gallery" aria-live="polite"></section>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+    <button id="lb-close" class="lb-close" aria-label="Close">✕</button>
+    <button id="lb-prev" class="lb-nav" aria-label="Previous image">◀</button>
+    <div class="lb-content">
+      <img id="lb-img" alt="" />
+      <div class="lb-caption">
+        <h2 id="lb-title"></h2>
+        <p id="lb-desc"></p>
+      </div>
+    </div>
+    <button id="lb-next" class="lb-nav" aria-label="Next image">▶</button>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
