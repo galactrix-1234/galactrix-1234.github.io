@@ -1,0 +1,16 @@
+[
+  {
+    "src": "images/photo1.svg",
+    "title": "Sunrise placeholder",
+    "caption": "Small SVG placeholder image",
+    "date": "2025-01-01",
+    "tags": ["placeholder","svg"]
+  },
+  {
+    "src": "images/photo2.svg",
+    "title": "Pine placeholder",
+    "caption": "Another SVG placeholder",
+    "date": "2024-12-01",
+    "tags": ["placeholder","tree"]
+  }
+]
