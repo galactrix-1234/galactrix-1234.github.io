@@ -1,16 +1,30 @@
 [
   {
-    "src": "images/photo1.svg",
-    "title": "Sunrise placeholder",
-    "caption": "Small SVG placeholder image",
-    "date": "2025-01-01",
-    "tags": ["placeholder","svg"]
+    "src": "images/SKGEM.png",
+    "title": "The Skgem pokemon",
+    "caption": "A rock and flying type that makes super big crystals come out of the ground.",
+    "date": "2025-10-26",
+    "tags": ["pokemon","png"]
   },
   {
-    "src": "images/photo2.svg",
-    "title": "Pine placeholder",
-    "caption": "Another SVG placeholder",
-    "date": "2024-12-01",
-    "tags": ["placeholder","tree"]
-  }
+    "src": "images/ai-svg-fail.png",
+    "title": "ChatGPT SVG generation failure",
+    "caption": "An example of ChatGPT's inability to create SVG images from prompts.",
+    "date": "2025-10-09",
+    "tags": ["ai","chatgpt","fail","png"]
+  },
+  {
+    "src": "images/chicken-leafy.png",
+    "title": "Chicken Leafy",
+    "caption": "A chicken version of Leafy from BFDI",
+    "date": "2025-10-14",
+    "tags": ["bfdi","chicken","leafy","png"]
+  },
+  {
+    "src": "images/ton618-1024.png",
+    "title": "Ton 618",
+    "caption": "A derpy version of the hypermassive black hole, Ton-618",
+    "date": "2025-10-09",
+    "tags": ["blackhole","space","ton618","png"]
+  },
 ]
