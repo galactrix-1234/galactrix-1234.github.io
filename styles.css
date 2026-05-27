@@ -19,6 +19,31 @@ body{
   padding:20px;
 }
 
+.site-nav {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.site-nav a {
+  display: inline-block;
+  color: currentColor;
+  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.02);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  width: 200px;
+  text-align: center;
+}
+
+.site-nav a.current {
+  font-weight: bold;
+  background: rgba(255,255,255,0.04);
+}
+
 .site-header{
   display:flex;
   gap:16px;
